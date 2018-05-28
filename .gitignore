@@ -1,0 +1,10 @@
+/.vs
+.sln
+
+/EmailSender
+/LoadData
+/packages
+/PartialView
+/SendEmail_MVC5-master
+/ValidationDataAnnotations
+/Solutions

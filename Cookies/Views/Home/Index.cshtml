@@ -1,0 +1,26 @@
+﻿@model Cookies.Models.Visitor
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Cookies Examples</h2>
+<p>@Html.ValidationSummary()</p>
+@{
+    if (ViewData["Name"] == null)
+    {
+        using (Html.BeginForm())
+        {
+            <p>Name:@Html.TextBoxFor(model => model.Name)</p>
+            <p>
+                <input type="submit" value="sign up" />
+            </p>
+        }
+    }
+    else
+    {
+        <p>Welcome to our site Mr/Mrs. @ViewData["Name"]</p>
+    }
+
+}
+
