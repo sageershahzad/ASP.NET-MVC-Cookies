@@ -1,7 +1,7 @@
 /.vs
 .sln
+/Cookies
 
-/EmailSender
 /LoadData
 /packages
 /PartialView
